@@ -10,14 +10,41 @@ namespace Seritool.Domain.Entities {
     /// this entitiy ensure seriport config parameters
     /// </summary>
     public sealed class PortConfig {
+        /// <summary>
+        /// this field keeps the comport
+        /// </summary>
         private int _comport = 1;
+        /// <summary>
+        /// this field keeps the baudrate
+        /// </summary>
         private int _baudrate = 9600;
+        /// <summary>
+        /// this field keeps the databit
+        /// </summary>
         private int _databit = 8;
+        /// <summary>
+        /// this field keeps the parity
+        /// </summary>
         private Parity _parity = Parity.None;
+        /// <summary>
+        /// this field keeps the stopbit
+        /// </summary>
         private StopBits _stopbit = StopBits.One;
+        /// <summary>
+        /// this field keeps theread timeout
+        /// </summary>
         private int _readTimeout = 1000;
+        /// <summary>
+        /// this field keeps the write timeout
+        /// </summary>
         private int _writeTimeout = 1000;
+        /// <summary>
+        /// this field keeps the read buffer size
+        /// </summary>
         private int _readBufferSize = 1024;
+        /// <summary>
+        /// this field keeps the write buffer size
+        /// </summary>
         private int _writeBufferSize = 1024;
 
         /// <summary>

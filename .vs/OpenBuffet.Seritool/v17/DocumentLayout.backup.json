@@ -3,10 +3,8 @@
   "WorkspaceRootPath": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9E530E9-88F4-4F32-9F6C-3B4243201DF2}|Driven{E9E530E9-88F4-4F32-9F6C-3B4243201DF2}|Seritool.Desktop||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79AEC4DC-B37C-40EB-B031-715BB454E530}|src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj|d:\\users\\ferdi.kurnaz\\source\\repos\\openbuffet.seritool\\src\\external\\adapters\\driven\\seritool.desktop\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
+      "AbsoluteMoniker": "D:0:0:{639B614C-CF05-45DD-ADDD-5420AD53BAB3}|src\\Internal\\Core\\Seritool.Domain\\Seritool.Domain.csproj|d:\\users\\ferdi.kurnaz\\source\\repos\\openbuffet.seritool\\src\\internal\\core\\seritool.domain\\entities\\portconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639B614C-CF05-45DD-ADDD-5420AD53BAB3}|src\\Internal\\Core\\Seritool.Domain\\Seritool.Domain.csproj|solutionrelative:src\\internal\\core\\seritool.domain\\entities\\portconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,13 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Seritool.Desktop",
-              "DocumentMoniker": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj",
-              "RelativeDocumentMoniker": "src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj",
-              "ToolTip": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj",
-              "RelativeToolTip": "src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-15T12:08:32.85Z",
+              "Title": "PortConfig.cs",
+              "DocumentMoniker": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\src\\Internal\\Core\\Seritool.Domain\\Entities\\PortConfig.cs",
+              "RelativeDocumentMoniker": "src\\Internal\\Core\\Seritool.Domain\\Entities\\PortConfig.cs",
+              "ToolTip": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\src\\Internal\\Core\\Seritool.Domain\\Entities\\PortConfig.cs",
+              "RelativeToolTip": "src\\Internal\\Core\\Seritool.Domain\\Entities\\PortConfig.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:55:39.862Z",
               "EditorCaption": ""
             }
           ]
