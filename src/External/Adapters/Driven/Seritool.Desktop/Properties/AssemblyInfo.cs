@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Seritool.Desktop")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Seritool")]
+[assembly: AssemblyDescription("Seritool is an open-source serial communication library designed for .NET applications. It provides a robust and extensible interface for handling serial ports, data framing, and communication protocols, making it ideal for automation, embedded systems, and industrial control software.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Seritool.Desktop")]
+[assembly: AssemblyProduct("Seritool")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

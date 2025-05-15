@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Seritool.Desktop.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,12 @@ namespace Seritool.Desktop {
     public partial class MainForm : Form {
         public MainForm() {
             InitializeComponent();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e) {
+            using (AboutBox aboutBox = new AboutBox()) {
+                aboutBox.ShowDialog();
+            }
         }
     }
 }
