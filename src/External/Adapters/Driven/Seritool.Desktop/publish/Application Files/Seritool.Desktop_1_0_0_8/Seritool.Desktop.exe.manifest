@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Seritool.Desktop.exe" version="1.0.0.8" publicKeyToken="660f6832cdbfe39e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="food-delivery.ico" asmv2:publisher="OpenBuffet" co.v1:suiteName="Seritool" asmv2:product="Seritool" asmv2:supportUrl="https://github.com/ferdikurnazdm/OpenBuffet.Seritool" co.v1:errorReportUrl="https://github.com/ferdikurnazdm/OpenBuffet.Seritool" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Seritool.Desktop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Seritool.Desktop.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Seritool.Desktop.exe" size="873976">
+      <assemblyIdentity name="Seritool.Desktop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>naEcM2/Io/IdRjhzbuxY8wtJqnBs9JgdoB6mrwy10+U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="food-delivery.ico" size="410598">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mreyPlwcMJ8JGsJgsA3L25xTvujIv80Ky8sLdDGDCzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Seritool.Desktop.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MEGAENDUSTRI\ferdi.kurnaz" issuerKeyHash="ae245fb9fa055757dfc2f08e7a3679d2319eab0f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L84hucm+IfvXfnZnHWWBf0bHzlebdOXRwQGqh25uxFg=</DigestValue></Reference></SignedInfo><SignatureValue>u46C0dePoijq4U9VHsmziZm0T+mO42ijBza//nvBbznnkUc4oQB9g8MzmhguG3FPahj9SOS1A+EDkRdeMLiJRTAv4C8PW1fNLh3amiGbuvboNBcZkp4Fk3OnGK4CEKf/YNZvEiqFUHCusL0ZUUwMG0m7N80HFhWKP43fySF2n8s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0U1CyjGMDyxEzVuIZycR/+lZZiF6LyRyyBOEcxKzvuuvPg26CW97qacdQg07L1UbO0/IDTvnb747bvO6QNh6MWoKj7wKT6ptynmJbcbXxIee4bUn1wB6jQiGJoPotAr4+bFyEMYtkCvfiiHFH+t545vIbWubw1zJFqvD6yizZZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="58c46e6e87aa01c1d1e5749b57cec7467f81651d67767ed7fb21bec9b921ce2f" Description="" Url=""><as:assemblyIdentity name="Seritool.Desktop.exe" version="1.0.0.8" publicKeyToken="660f6832cdbfe39e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MEGAENDUSTRI\ferdi.kurnaz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>X+LEeQZ/mgdlXoE7PykM3c9DWU5Z2DwgB/EASXrJwB0=</DigestValue></Reference></SignedInfo><SignatureValue>RnF0818wjOaQ4JI/Oy2mNAMNTWZqvSPHXJnLS26GhJP09ZZHiuA5+DG4r9BS8Q7KP5RVVX1byphn4t1jgIhIbs881m3sfpV2GfXpQu9q/IiS3KyewUKDZ9nzEc3BGFWRFsm0ASPe9QVyUBlnO51++lMj+INHfdwzvTInZsbdvXQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0U1CyjGMDyxEzVuIZycR/+lZZiF6LyRyyBOEcxKzvuuvPg26CW97qacdQg07L1UbO0/IDTvnb747bvO6QNh6MWoKj7wKT6ptynmJbcbXxIee4bUn1wB6jQiGJoPotAr4+bFyEMYtkCvfiiHFH+t545vIbWubw1zJFqvD6yizZZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQJFYnzYp+wLZEUZs/uGmXczANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIATQBFAEcAQQBFAE4ARABVAFMAVABSAEkAXABmAGUAcgBkAGkALgBrAHUAcgBuAGEAejAeFw0yNTA1MTUwODA0MzhaFw0yNjA1MTUxNDA0MzhaMD0xOzA5BgNVBAMeMgBNAEUARwBBAEUATgBEAFUAUwBUAFIASQBcAGYAZQByAGQAaQAuAGsAdQByAG4AYQB6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRTULKMYwPLETNW4hnJxH/6VlmIXovJHLIE4RzErO+668+DboJb3uppx1CDTsvVRs7T8gNO+dvvjtu87pA2HoxagqPvApPqm3KeYltxtfEh57htSfXAHqNCIYmg+i0Cvj5sXIQxi2QK9+KIcUf63njm8hta5vDXMkWq8PrKLNlnQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFtFRkUWYoGzvgenomCQ4c0jYUEq6wNpCXLMwC4PjKOL5hZLxRQSw7JCu2YYJDcVDMzovgUozPRvxgUyyz+3V19Ss2qIKGuRqUw7guzG5FJO386DQe9laLPnI6XkmqO+ZVQykrLGqur0PmCEwRKJTTHW02qhAZUnf0hAl+nLdUgJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
