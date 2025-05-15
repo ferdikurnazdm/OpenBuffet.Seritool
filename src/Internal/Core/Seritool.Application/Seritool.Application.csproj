@@ -41,7 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\SeritoolEngine.cs" />
+    <Compile Include="Managers\SeriportManager.cs" />
+    <Compile Include="Ports\ISeriport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extentions\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Seritool.Domain\Seritool.Domain.csproj">
+      <Project>{639b614c-cf05-45dd-addd-5420ad53bab3}</Project>
+      <Name>Seritool.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
