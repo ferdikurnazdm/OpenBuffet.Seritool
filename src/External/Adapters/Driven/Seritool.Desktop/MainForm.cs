@@ -15,10 +15,22 @@ namespace Seritool.Desktop {
             InitializeComponent();
         }
 
+
+
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e) {
             using (AboutBox aboutBox = new AboutBox()) {
                 aboutBox.ShowDialog();
             }
+        }
+
+        private void toolStripLbl_navigator_close_Click(object sender, EventArgs e) {
+            if (splitContainer.Panel1Collapsed){ return; }
+            splitContainer.Panel1Collapsed = true;
+        }
+
+        private void navigatorToolStripMenuItem_Click(object sender, EventArgs e) {
+            if (!splitContainer.Panel1Collapsed) { return; }
+            splitContainer.Panel1Collapsed = false;
         }
     }
 }
