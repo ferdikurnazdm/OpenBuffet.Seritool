@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
@@ -50,6 +51,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this property keeps the comport
         /// </summary>
+        [Category("Connection")]
+        [DisplayName("COM Port")]
+        [Description("The COM port number to use (e.g., 1 for COM1).")]
         public int Comport {
             get { return _comport; }
             set {
@@ -61,6 +65,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this property keeps the baudrate
         /// </summary>
+        [Category("Connection")]
+        [DisplayName("Baud Rate")]
+        [Description("The speed of communication in bits per second (bps).")]
         public int Baudrate {
             get { return _baudrate; }
             set {
@@ -72,6 +79,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this property keeps the databit
         /// </summary>
+        [Category("Connection")]
+        [DisplayName("Data Bits")]
+        [Description("The number of data bits per byte.")]
         public int Databit {
             get { return _databit; }
             set {
@@ -83,6 +93,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this property keeps the parity
         /// </summary>
+        [Category("Connection")]
+        [DisplayName("Parity")]
+        [Description("The parity-checking protocol to use.")]
         public Parity Parity {
             get { return _parity; }
             set {
@@ -94,6 +107,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this property keeps the stopbit
         /// </summary>
+        [Category("Connection")]
+        [DisplayName("Stop Bits")]
+        [Description("The number of stop bits to use.")]
         public StopBits StopBits {
             get { return _stopbit; }
             set {
@@ -105,6 +121,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this porperty keeps the receive timeout as milisecond
         /// </summary>
+        [Category("Timeouts")]
+        [DisplayName("Read Timeout (ms)")]
+        [Description("The number of milliseconds before a read operation times out.")]
         public int ReadTimeout {
             get { return _readTimeout; }
             set {
@@ -116,6 +135,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this porperty keeps the transfer timeout as milisecond
         /// </summary>
+        [Category("Timeouts")]
+        [DisplayName("Write Timeout (ms)")]
+        [Description("The number of milliseconds before a write operation times out.")]
         public int WriteTimeout {
             get { return _writeTimeout; }
             set {
@@ -127,6 +149,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this porperty keeps the receive buffer size as byte
         /// </summary>
+        [Category("Buffers")]
+        [DisplayName("Read Buffer Size (bytes)")]
+        [Description("The size of the input buffer in bytes.")]
         public int ReadBufferSize {
             get { return _readBufferSize; }
             set {
@@ -138,6 +163,9 @@ namespace Seritool.Domain.Entities {
         /// <summary>
         /// this porperty keeps the transfer buffer size as byte
         /// </summary>
+        [Category("Buffers")]
+        [DisplayName("Write Buffer Size (bytes)")]
+        [Description("The size of the output buffer in bytes.")]
         public int WriteBufferSize {
             get { return _writeBufferSize; }
             set {
@@ -148,3 +176,24 @@ namespace Seritool.Domain.Entities {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

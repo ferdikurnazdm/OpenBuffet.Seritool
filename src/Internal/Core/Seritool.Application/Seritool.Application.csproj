@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Engine\SeritoolEngine.cs" />
+    <Compile Include="Managers\PortConfigManager.cs" />
     <Compile Include="Managers\SeriportManager.cs" />
     <Compile Include="Ports\ISeriport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

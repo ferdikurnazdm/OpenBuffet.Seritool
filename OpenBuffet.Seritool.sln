@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seritool.Desktop", "src\Ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seritool.Seriport", "src\External\Adapters\Driving\Seritool.Seriport\Seritool.Seriport.csproj", "{0B36C169-0CA5-4B55-B749-AD169F22EDE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seritool.WPF", "src\External\Adapters\Driven\Seritool.WPF\Seritool.WPF.csproj", "{870AA44E-3D5F-41FB-A85F-041E5065AD13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{0B36C169-0CA5-4B55-B749-AD169F22EDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B36C169-0CA5-4B55-B749-AD169F22EDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B36C169-0CA5-4B55-B749-AD169F22EDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870AA44E-3D5F-41FB-A85F-041E5065AD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870AA44E-3D5F-41FB-A85F-041E5065AD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870AA44E-3D5F-41FB-A85F-041E5065AD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870AA44E-3D5F-41FB-A85F-041E5065AD13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +84,6 @@ Global
 		{02A37101-360B-430A-BD73-A38CEAED647E} = {AA7D78BA-4023-43A3-BC8F-BF0F42711600}
 		{79AEC4DC-B37C-40EB-B031-715BB454E530} = {E9E530E9-88F4-4F32-9F6C-3B4243201DF2}
 		{0B36C169-0CA5-4B55-B749-AD169F22EDE9} = {5A6CC5D0-ABFE-4D6C-9A3E-B01830016E78}
+		{870AA44E-3D5F-41FB-A85F-041E5065AD13} = {E9E530E9-88F4-4F32-9F6C-3B4243201DF2}
 	EndGlobalSection
 EndGlobal
