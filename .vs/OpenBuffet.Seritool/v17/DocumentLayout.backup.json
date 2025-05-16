@@ -1,36 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{79AEC4DC-B37C-40EB-B031-715BB454E530}|src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj|d:\\users\\ferdi.kurnaz\\source\\repos\\openbuffet.seritool\\src\\external\\adapters\\driven\\seritool.desktop\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79AEC4DC-B37C-40EB-B031-715BB454E530}|src\\External\\Adapters\\Driven\\Seritool.Desktop\\Seritool.Desktop.csproj|solutionrelative:src\\external\\adapters\\driven\\seritool.desktop\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\src\\External\\Adapters\\Driven\\Seritool.Desktop\\MainForm.cs",
-              "RelativeDocumentMoniker": "src\\External\\Adapters\\Driven\\Seritool.Desktop\\MainForm.cs",
-              "ToolTip": "D:\\Users\\ferdi.kurnaz\\source\\repos\\OpenBuffet.Seritool\\src\\External\\Adapters\\Driven\\Seritool.Desktop\\MainForm.cs [Design]",
-              "RelativeToolTip": "src\\External\\Adapters\\Driven\\Seritool.Desktop\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T14:01:45.651Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
